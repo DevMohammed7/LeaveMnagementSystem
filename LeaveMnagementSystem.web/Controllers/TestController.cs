@@ -12,7 +12,7 @@ namespace LeaveMnagementSystem.web.Controllers
                 Name = "Test",
                 DateOfBirth = new DateTime(1999,11,08)
             };
-            return View(name);
+            return View(name); 
         }
     }
 }
