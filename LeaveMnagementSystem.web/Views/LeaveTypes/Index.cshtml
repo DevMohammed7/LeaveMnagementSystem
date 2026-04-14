@@ -1,10 +1,10 @@
-﻿@model IEnumerable<LeaveMnagementSystem.web.Data.LeaveType> // The model for this view is an IEnumerable of LeaveType, which means it will display a list of leave types.
+﻿@model IEnumerable<LeaveTypeReadOnlyVM> // The model for this view is an IEnumerable of LeaveType, which means it will display a list of leave types.
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Leave Types</h1>
 
 <p>
     <a asp-action="Create" class="btn btn-primary">Create New Leave</a>
